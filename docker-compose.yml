@@ -31,4 +31,4 @@ services:
       - "80:80"
     volumes:
       - /filerun/html:/var/www/html
-      - /filerun/user-files:/user-files
+      - /:/user-files
