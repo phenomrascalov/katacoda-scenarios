@@ -12,8 +12,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "env-init.sh",
-      "credits": ""
     },
     "finish": {
       "text": "finish.md"
