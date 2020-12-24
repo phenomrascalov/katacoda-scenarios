@@ -1,1 +1,1 @@
-`git clone https://github.com/phenomrascalov/katacoda-scenarios.git && cd katacoda-scenarios && chmod +x filerun.sh && ./filerun.sh && docker-compose up -d && clear && docker run -it --entrypoint bash -v /centos7.7:/opt phenomrascalov/centos7.7`{{execute}}
+`git clone https://github.com/phenomrascalov/katacoda-scenarios.git && cd katacoda-scenarios && chmod +x filerun.sh && ./filerun.sh && docker-compose up -d && clear && docker run -it --entrypoint bash -v /downloadedpackages:/downloadedpackages phenomrascalov/centos7.7`{{execute}}
