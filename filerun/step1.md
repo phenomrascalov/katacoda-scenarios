@@ -1,1 +1,1 @@
-`test`{{execute}}
+`echo "Hello World"`{{execute}}
