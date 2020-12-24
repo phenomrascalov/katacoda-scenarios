@@ -38,3 +38,4 @@ services:
     volumes:
       - /filerun/html:/var/www/html
       - /filerun/user-files:/user-files
+      EOF
