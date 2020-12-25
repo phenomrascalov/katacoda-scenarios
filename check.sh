@@ -1,7 +1,7 @@
 for (( c=1; c<=100; c++ ))
 do  
 curl http://localhost || var=0
-if ($var == false) 
+if [ $var == false ]
 then
       echo "Please Wait"
       sleep 2
