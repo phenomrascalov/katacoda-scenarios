@@ -1,6 +1,6 @@
 for (( c=1; c<=100; c++ ))
 do  
-curl http://localhost || var=false
+curl http://localhost || var=0
 if ($var == false) 
 then
       echo "Please Wait"
