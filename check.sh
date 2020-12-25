@@ -5,9 +5,9 @@ if test -z $var
 then
       echo "Please Wait"
       sleep 2
-      echo $var
       clear
 else
+      echo "Ready"
       break
  fi
 done
