@@ -1,1 +1,1 @@
-curl http://localhost
+curl http://localhost || echo not ok
