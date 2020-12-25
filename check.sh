@@ -1,11 +1,1 @@
-var=$(netstat -tulpn | grep :80)
-while [ "$var" != "true" ]; do
-sleep 2
-clear
-if test -z "$var" 
-then
-      echo "Please Wait"
-else
-      break
-fi
-done
+curl https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
