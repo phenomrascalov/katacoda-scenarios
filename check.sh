@@ -1,5 +1,5 @@
 var=$(netstat -tulpn | grep :80)
-while [ "$var" ]; do
+while [ "$var" != "true" ]; do
 sleep 2
 clear
 if test -z "$var" 
