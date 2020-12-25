@@ -4,7 +4,7 @@ var=$(curl -Is http://localhost | head -1)
 if test -z $var
 then
       echo "Please Wait"
-      sleep 2
+      sleep 1
       clear
 else
       echo "Ready"
