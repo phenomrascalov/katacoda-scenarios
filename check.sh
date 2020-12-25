@@ -8,6 +8,7 @@ then
       sleep 1
       clear
 else
+      clear
       echo "Ready"
       break
 fi
