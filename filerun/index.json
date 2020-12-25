@@ -11,7 +11,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
       "code": "env-post-init.sh"
     },
     "finish": {
