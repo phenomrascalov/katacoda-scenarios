@@ -12,4 +12,5 @@ else
       echo "Ready"
       break
 fi
+echo "Timeout !!!"
 done
