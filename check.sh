@@ -5,7 +5,7 @@ if test -z $var
 then
       echo "Please Wait"
 	  let c=c+1 
-      sleep 2
+      sleep 1
       clear
 else
       clear
