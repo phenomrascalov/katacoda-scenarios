@@ -12,5 +12,9 @@ else
       echo "Ready"
       break
 fi
-echo "Timeout !!!"
+if ( c == 49 )
+then
+      echo "Timeout"
+	
+fi
 done
