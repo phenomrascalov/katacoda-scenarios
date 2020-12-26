@@ -12,7 +12,7 @@ else
       echo "Ready"
       break
 fi
-if ( c == 49 )
+if ( $c == 49 )
 then
       echo "Timeout"
 	
