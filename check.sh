@@ -15,6 +15,7 @@ fi
 if [ "$c" -eq "49" ]
 then
       echo "Timeout"
+      exit 1
 	
 fi
 done
