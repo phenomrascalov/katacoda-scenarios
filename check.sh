@@ -1,5 +1,5 @@
 c=0
-while [  $c -lt 50 ]; do
+while [  $c -lt 100 ]; do
 var=$(curl -Is http://localhost | head -1)
 if test -z $var
 then
@@ -12,7 +12,7 @@ else
       echo "Ready"
       break
 fi
-if [ "$c" -eq "49" ]
+if [ "$c" -eq "99" ]
 then
       echo "Timeout"
       exit 1
