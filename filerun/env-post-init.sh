@@ -3,5 +3,5 @@ cd katacoda-scenarios && chmod +x filerun.sh
 ./filerun.sh
 docker-compose up -d
 cd katacoda-scenarios
-#chmod +x check.sh && ./check.sh 
+chmod +x check.sh && ./check.sh 
 chmod +x jirafeau.sh && ./jirafeau.sh
