@@ -12,7 +12,7 @@ services:
       - /filerun/db:/var/lib/mysql
 
   web:
-    image: filerun/cloudron
+    image: filerun/cloudron:1.0.0
     environment:
       FR_DB_HOST: db
       FR_DB_PORT: 3306
