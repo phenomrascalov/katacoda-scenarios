@@ -12,7 +12,7 @@ services:
       - /filerun/db:/var/lib/mysql
 
   web:
-    image: afian/filerun
+    image: filerun/filerun
     environment:
       FR_DB_HOST: db
       FR_DB_PORT: 3306
