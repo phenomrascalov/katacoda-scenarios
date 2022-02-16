@@ -2,7 +2,7 @@ version: '2'
 
 services:
   db:
-    image: mariadb:10.1
+    image: mariadb:10
     environment:
       MYSQL_ROOT_PASSWORD: your_mysql_root_password
       MYSQL_USER: your_filerun_username
@@ -12,7 +12,7 @@ services:
       - /filerun/db:/var/lib/mysql
 
   web:
-    image: filerun/filerun
+    image: afian/filerun
     environment:
       FR_DB_HOST: db
       FR_DB_PORT: 3306
