@@ -9,4 +9,4 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
 
 `yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y`{{copy}}
 
-ps: yum install systemd-devel --downloadonly --downloaddir=/download
+`yum deplist systemd-devel | awk '/provider:/ {print $2}' | sort -u | xargs yum -y install`{{copy}}
