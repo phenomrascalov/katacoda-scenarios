@@ -10,3 +10,5 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
 `yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y`{{copy}}
 
 `yum deplist systemd-devel | awk '/provider:/ {print $2}' | sort -u | xargs yum -y install --downloadonly --downloaddir=/download`{{copy}}
+
+`repoquery --archlist=x86_64,noarch -R --resolve --recursive systemd-devel | xargs -r yumdownloader`{{copy}}
